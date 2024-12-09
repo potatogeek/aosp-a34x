@@ -121,9 +121,12 @@
         <fqname>@2.0::IApmService/apm_hidl_service</fqname>
     </hal>
     <hal format="hidl">
-        <name>vendor.mediatek.hardware.atci</name>
-        <transport>hwbinder</transport>
-    </hal>
+    <name>vendor.mediatek.hardware.atci</name>
+    <version>1.0</version>
+    <transport>hwbinder</transport>
+    <fqname>@1.0::IAtciService/default</fqname>
+</hal>
+
     <hal format="hidl">
         <name>vendor.mediatek.hardware.bluetooth.audio</name>
         <transport>hwbinder</transport>
